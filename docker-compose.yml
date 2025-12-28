@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  iris-api:
+    image: iris-api:latest
+    container_name: iris-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      # Example env vars (you can later move config here)
+      APP_ENV: "production"

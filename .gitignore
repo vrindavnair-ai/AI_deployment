@@ -1,0 +1,16 @@
+# Python venv
+.venv/
+venv/
+
+# Mac files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+
+# Kubernetes log outputs
+*.txt
