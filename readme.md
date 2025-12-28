@@ -156,7 +156,9 @@ __pycache__/
 
 7) git branch -M main
 
-8) # to see if anything updated after pushing
+8) git push -u origin main
+
+9) # to see if anything updated after pushing
 git status 
 
 9) # I modified readme
